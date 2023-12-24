@@ -4,7 +4,8 @@ public class FactorialEx {
         if(n<=1){
             return 1;
         }
-       return n*calcfactorial(n-1);
+        int fact= calcfactorial(n-1);
+       return n*fact;
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
